@@ -1,0 +1,5 @@
+Title of work: ibm_cm_offering_instance
+Link to work: https://galaxy.ansible.com/ui/repo/published/ibm/cloud/content/module/ibm_schematics_job/
+Revision: https://galaxy.ansible.com/ui/repo/published/ibm/cloud/content/module/ibm_schematics_job/
+License of the work:  GPL-3.0
+Creator names: IBM authors

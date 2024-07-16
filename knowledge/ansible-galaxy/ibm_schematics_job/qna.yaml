@@ -1,0 +1,40 @@
+---
+created_by: sumanth-v-m
+version: 2
+domain: ansible modules for ibm cloud
+seed_examples:
+  - answer: >
+      The IBM Cloud Schematics Job module in Ansible allows users to manage and automate
+      IBM Cloud Schematics jobs directly from Ansible playbooks.
+      IBM Cloud Schematics is an infrastructure-as-code (IaC) service that uses Terraform
+      to provision and manage cloud resources.
+      With the Ansible Schematics Job module, you can create, manage, and monitor Schematics jobs,
+      which are used to execute actions such as applying Terraform plans, destroying resources,
+      or running custom scripts.
+    question: What is IBM Cloud Schematics Job module
+  - answer: >
+      With this module, users can effortlessly create, update, and monitor Schematics jobs directly
+      from their Ansible playbooks.Key features include the ability to define and execute actions
+      such as applying Terraform plans, destroying resources, or running custom scripts across
+      various environments.
+    question: what are key features of schematics job module
+  - answer: >
+      you can install whole collection by calling ansible-galaxy command
+      ansible-galaxy collection install ibm.cloud
+    question: How to install
+  - answer: >
+      To use the IBM Cloud Schematics Job module in Ansible, ensure you have an
+      IBM Cloud account with API key access, a configured Schematics workspace with Terraform scripts,
+      and the IBM Cloud collection for Ansible installed.
+    question: How to install
+  - answer: >
+      the mandatory parameters that need to be passed include name, workspace_id, and action.
+      These parameters are essential for defining the job's identity, linking it to the appropriate workspace,
+      and specifying the action to be executed on that workspace's Terraform configuration.
+    question: What are mandatory parameters for job
+task_description: Knowledge about ibm cloud ansible mdoules
+document:
+  repo: https://github.com/sumanth-v-m/knowledge.git
+  commit: 30abc517dbed41ba1b60694704303bae8f8ae817
+  patterns:
+    - knowledge/ansible-galaxy/ibm_schematics_job/ibm_schematics_job.md
